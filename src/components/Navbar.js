@@ -12,7 +12,7 @@ const Navbar = ({ isScrolled }) => {
     ];
 
     return (
-        <div className={`z-20 fixed top-0 flex items-center w-full h-[10%] px-[7%] ${isScrolled ? 'shadow-sm shadow-gray-300 bg-pink-100' : 'bg-pink-50'}`}>
+        <div className={`z-20 fixed top-0 flex items-center w-full px-[7%] h-[10%] shadow-sm shadow-gray-300 bg-pink-100`}>
             <div className="font-extrabold text-125% text-red-800 w-2/3">
                 FITNESS GYM
             </div>

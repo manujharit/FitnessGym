@@ -27,7 +27,7 @@ const App = () => {
   return (
     <div className="flex flex-col w-[100%] h-screen">
       <div className="h-[10%]"><Navbar isScrolled={isScrolled} /></div>
-      <div className=" overflow-y-auto max-h-[90%]">
+      <div className=" overflow-y-auto max-h-[90%] h-[90%]">
         <Home />
         <Benefits />
         <Classes />
