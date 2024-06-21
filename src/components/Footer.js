@@ -12,7 +12,7 @@ const Footer = () => {
                 </span>
             </div>
             <div className='flex flex-row justify-center mt-[5%] xl:mt-[0%] w-[100%] xl:w-[50%] '>
-                <div className='w-[50%] flex flex-col items-center'>
+                <div className='w-[50%] flex flex-col items-start'>
                     <span className="font-extrabold text-[125%] text-red-800">
                         LINKS
                     </span>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <a className='mt-[2%] text-rose-600 font-semibold hover:underline' href='/'>Facebook</a>
                     <a className='mt-[2%] text-rose-600 font-semibold hover:underline' href='/'>Twitter</a>
                 </div>
-                <div className='flex flex-col items-center w-[50%]'>
+                <div className='flex flex-col items-end w-[50%]'>
                     <span className="font-extrabold text-[125%] text-red-800 ">
                         CONTACT US
                     </span>
